@@ -1,0 +1,14 @@
+syntax = "proto3";
+package hspdev0814.longchain.longchain;
+
+import "gogoproto/gogo.proto";
+import "longchain/params.proto";
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "github.com/hspdev0814/LongChain/x/longchain/types";
+
+// GenesisState defines the longchain module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+  // this line is used by starport scaffolding # genesis/proto/state
+}

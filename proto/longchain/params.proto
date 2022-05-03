@@ -1,0 +1,12 @@
+syntax = "proto3";
+package hspdev0814.longchain.longchain;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "github.com/hspdev0814/LongChain/x/longchain/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}

@@ -1,0 +1,6 @@
+Cosmos SDK's version is: [33mstargate - v0.45.3[0m
+
+▶️  Restarting existing app...
+🌍 Tendermint node: http://0.0.0.0:26657
+🌍 Blockchain API: http://0.0.0.0:1317
+🌍 Token faucet: http://0.0.0.0:4500
